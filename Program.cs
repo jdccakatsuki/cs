@@ -47,6 +47,7 @@ namespace Class
             int resultMethod = Class.Method(2);
             // Is important to show the {resultMethod}
             // The  display of the following output:
+            //
             Console.WriteLine($"The value of the method  is {resultMethod}.");
         }
     }
