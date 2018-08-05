@@ -22,7 +22,11 @@ namespace _05_Encapsulation
         private int data2 { get; set; }
         protected int data3 { get; set; }
 
-        //Methods
+        //Methods -  The ideal practice of OOP suggests trying to write software with high cohesion - defining concise classes and methods.
+        //cohesion :
+        //determines how closely related system components are in solving specific problems
+        //is strong when program components access and implement logic strictly related to their purpose and interact with other components to solve a specific problem.
+        //is weak when its components access or implement logic that does not correspond to its nature or design purpose.
         public int Method(int Parameter)
         {
             Parameter = data1;

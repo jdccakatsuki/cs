@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace _04_Interfaces
 {
+    //  Coupling refers to how dependent the system components are on each other to solve a task.
+    //when the components of the system are very dependent on each other there is strong coupling, and when ther are not dependent there is weak coupling
+    //The ideal practice of OOP suggests trying to write software with weak coupling. 
+    // This is usually done using interfaces (coupling)
     //Declaration Interface
     interface IInterface
     {
